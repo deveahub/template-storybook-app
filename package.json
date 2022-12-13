@@ -1,0 +1,47 @@
+{
+  "name": "template-storybook-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "eslint . --ext ts,tsx --max-warnings 0 --fix",
+    "start": "next start",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@types/node": "18.11.13",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.9",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled": "*",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-interactions": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/builder-webpack5": "^6.5.14",
+    "@storybook/manager-webpack5": "^6.5.14",
+    "@storybook/react": "^6.5.14",
+    "@storybook/testing-library": "^0.0.13",
+    "@testing-library/react": "^13.4.0",
+    "babel-loader": "^8.3.0",
+    "eslint-config-react": "*",
+    "husky": "^8.0.2",
+    "jest-config-react": "*",
+    "next-transpile-modules": "^10.0.0",
+    "tsconfig": "*"
+  },
+  "author": "Roberto Ríos <contact@rrios.dev>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrios-dev/template-storybook-app"
+  }
+}
